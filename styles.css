@@ -8,11 +8,10 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
     background-image: url('initial_background.jpg'); /* 초기 배경이미지 */
-    background-size: cover; /* 배경이미지가 창에 맞게 조정 */
+    background-size: contain; /* 배경이미지가 화면에 맞게 조정되지만 비율 유지 */
     background-position: center;
     background-repeat: no-repeat;
 }
-
 
 .box {
     background-color: rgba(0, 0, 0, 0.8);
@@ -46,7 +45,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8); /* 팝업의 배경색 설정 */
+    background-color: rgba(0, 0, 0, 0.9); /* 팝업의 배경색 설정 */
 }
 
 .popup-content {
